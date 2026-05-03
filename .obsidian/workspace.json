@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/DAILY.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAILY"
+              "title": "Untitled"
             }
           }
         ]
@@ -181,9 +181,19 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "db39a0cd39725702",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -207,12 +217,15 @@
   },
   "active": "435eeefc38e58b7b",
   "lastOpenFiles": [
-    "Templates/DAILY.md",
+    "Templates/Blog.md",
+    "Untitled.md",
+    "Templates/Project.md",
+    "Templates/Incident.md",
+    "Templates/Daily.md",
     "Home.md",
     "00-Inbox/10-Daily.md",
     "00-Inbox/00-Inbox.md",
     "10-Daily/{{date}}.md",
-    "Untitled.md",
     "20-Work/Incidents",
     "20-Work/Meetings",
     "Untitled 1",
