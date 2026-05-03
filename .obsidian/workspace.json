@@ -238,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,7 +256,7 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "23558352607f7ed0",
+  "active": "435eeefc38e58b7b",
   "lastOpenFiles": [
     "Home.md",
     "00-Inbox/10-Daily.md",
