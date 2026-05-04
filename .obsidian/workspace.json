@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "18fc23b248840397",
+        "id": "0e842504dee1c373",
         "type": "tabs",
         "children": [
           {
@@ -188,8 +188,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ],
@@ -215,10 +215,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "435eeefc38e58b7b",
+  "active": "db39a0cd39725702",
   "lastOpenFiles": [
-    "10-Daily/{{date}}.md",
     "Home.md",
+    "00-Inbox/Untitled.md",
+    "10-Daily/{{date}}.md",
     "Templates/Blog.md",
     "Untitled.md",
     "Templates/Project.md",
