@@ -3,7 +3,6 @@ tags:
   - home
 ---
 # 🧠 MyBrain
-
 > Bộ não thứ hai của tôi — DevOps · Học tập · Cuộc sống
 
 ## 📌 Quick links
