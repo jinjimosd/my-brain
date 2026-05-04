@@ -1,27 +1,102 @@
 ---
-tags:
-  - home
+tags: [home, index]
+created: 2025-01-15
 ---
+
 # 🧠 MyBrain
-> Bộ não thứ hai của tôi — DevOps · Học tập · Cuộc sống
 
-## 📌 Quick links
-- [[10-Daily/{{date}}|📅 Hôm nay]]
-- [[00-Inbox|📥 Inbox]]
-- [[20-Work/Projects|🚀 Projects]]
-- [[30-Learning|📚 Learning]]
+> Bộ não thứ hai của tôi — DevOps · Học tập · Cuộc sống · Blog
 
-## 🗂️ Vault
-| Khu vực           | Mục đích                      |
-| ----------------- | ----------------------------- |
-| [[00-Inbox]]      | Ghi nhanh, xử lý sau          |
-| [[10-Daily]]      | Nhật ký hàng ngày             |
-| [[20-Work]]       | Công việc, dự án, incidents   |
-| [[30-Learning]]   | Kubernetes, Terraform, DevOps |
-| [[40-Personal]]   | Cá nhân, goals, suy nghĩ      |
-| [[50-References]] | Cheatsheets, tài liệu         |
+---
 
-## ✍️ Blog pipeline
-- Drafts: #blog/draft
-- Ready: #blog/ready
-- Published: #blog/published
+## ⚡ Quick Capture
+_Ghi nhanh vào đây, phân loại sau:_
+- [[00-Inbox/_Inbox|📥 Mở Inbox]]
+- Hoặc nhấn `Cmd+N` → note tự vào Inbox
+
+---
+
+## 🗺️ Vault Map
+
+| Khu vực       | Link                                      | Mục đích             |
+| ------------- | ----------------------------------------- | -------------------- |
+| 📥 Inbox      | [[00-Inbox/_Inbox\|Inbox]]                | Ghi nhanh chưa xử lý |
+| 📅 Daily      | [[10-Daily/_Daily\|Daily Notes]]          | Nhật ký hàng ngày    |
+| 💼 Work       | [[20-Work/_Work\|Work]]                   | Công việc, dự án     |
+| 📚 Learning   | [[30-Learning/_Learning\|Learning]]       | Kiến thức kỹ thuật   |
+| 🌱 Personal   | [[40-Personal/_Personal\|Personal]]       | Cá nhân, goals       |
+| 📖 References | [[50-References/_References\|References]] | Cheatsheets, docs    |
+
+---
+
+## 📅 Daily Notes gần nhất
+```dataview
+LIST
+FROM "10-Daily"
+WHERE file.name != "_Daily"
+SORT file.day DESC
+LIMIT 7
+```
+
+---
+
+## 🚀 Projects đang active
+```dataview
+TABLE started AS "Bắt đầu", deadline AS "Deadline"
+FROM "20-Work/Projects"
+WHERE status = "active"
+SORT file.mtime DESC
+```
+
+---
+
+## ✅ Tasks hôm nay
+```tasks
+not done
+due today
+sort by priority
+```
+
+### Tasks quá hạn
+```tasks
+not done
+due before today
+sort by due
+limit 5
+```
+
+---
+
+## ✍️ Blog Pipeline
+```dataview
+TABLE status AS "Status", date_created AS "Created"
+FROM #blog/draft OR #blog/ready
+SORT file.mtime DESC
+```
+
+---
+
+## 📚 Learning Notes gần nhất
+```dataview
+LIST
+FROM "30-Learning"
+WHERE file.name != "_Learning"
+SORT file.mtime DESC
+LIMIT 5
+```
+
+---
+
+## 🔗 Quick Links
+- [[20-Work/Projects/_Projects|🚀 All Projects]]
+- [[20-Work/Incidents/_Incidents|🚨 Incidents]]
+- [[20-Work/Meetings/_Meetings|🤝 Meetings]]
+- [[Templates/_Templates|📄 Templates]]
+
+---
+
+## 🏷️ Tags hay dùng
+- #journal · #learning · #project · #incident
+- #tech/kubernetes · #tech/terraform · #tech/docker
+- #blog/draft · #blog/ready · #blog/published
+- #status/active · #status/done · #todo

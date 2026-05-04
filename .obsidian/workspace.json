@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0e842504dee1c373",
+        "id": "ded9b4ccea2e08f9",
         "type": "tabs",
         "children": [
           {
-            "id": "435eeefc38e58b7b",
+            "id": "39d5d878a4b15319",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Home.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -215,13 +215,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "db39a0cd39725702",
+  "active": "39d5d878a4b15319",
   "lastOpenFiles": [
+    "10-Daily/_Daily.md",
     "Home.md",
-    "00-Inbox/Untitled.md",
+    "00-Inbox/_Inbox.md",
+    "30-Learning/_Learning.md",
+    "40-Personal/_Personal.md",
+    "50-References/_References.md",
+    "20-Work/_Work.md",
     "10-Daily/{{date}}.md",
     "Templates/Blog.md",
-    "Untitled.md",
     "Templates/Project.md",
     "Templates/Incident.md",
     "Templates/Daily.md",

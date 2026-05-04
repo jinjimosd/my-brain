@@ -11,7 +11,7 @@
   "templater-obsidian:insert-templater": [
     {
       "modifiers": [
-        "Mod",
+        "Ctrl",
         "Shift"
       ],
       "key": "T"
