@@ -31,12 +31,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Templates/_Templates.md",
+                    "file": "Templates/Weekly-Review.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "_Templates"
+                  "title": "Weekly-Review"
                 }
               }
             ],
@@ -284,9 +284,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d6ad84759769ab52",
+  "active": "fb13197fbfc11f1a",
   "lastOpenFiles": [
+    "45-Snippets",
     "Templates/Daily.md",
+    "Templates/Weekly-Review.md",
     "Templates/_Templates.md",
     "60-Archive/Daily",
     "60-Archive/Incidents",
@@ -318,8 +320,6 @@
     "20-Work/Projects",
     "10-Daily.md",
     "30-Learning.md",
-    "20-Work.md",
-    "Welcome.md",
     "Templates",
     "50-References"
   ]
