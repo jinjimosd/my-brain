@@ -85,7 +85,7 @@
                   },
                   "pinned": true,
                   "icon": "terminal",
-                  "title": "Terminal: zsh"
+                  "title": "Terminal: node@ecom-erp-connector-5d98cc9587-zpk82: /app"
                 }
               }
             ]
@@ -284,8 +284,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "fb13197fbfc11f1a",
+  "active": "f1604498a9549a49",
   "lastOpenFiles": [
+    "Templates/Blog.md",
     "40-Personal/Goals 2025.md",
     "Templates/Weekly-Review.md",
     "45-Snippets",
@@ -303,7 +304,6 @@
     "00-Inbox/Untitled.md",
     "Templates/Project.md",
     "Templates/Incident.md",
-    "Templates/Blog.md",
     "40-Personal/_Personal.md",
     "30-Learning/_Learning.md",
     "20-Work/Projects/_Projects.md",
