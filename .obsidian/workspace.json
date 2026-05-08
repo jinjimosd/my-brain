@@ -31,12 +31,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "20-Work/Meetings/NK-2026-05-08.md",
+                    "file": "10-Daily/2026-05-08.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "NK-2026-05-08"
+                  "title": "2026-05-08"
                 }
               }
             ],
@@ -286,8 +286,9 @@
   },
   "active": "d6ad84759769ab52",
   "lastOpenFiles": [
-    "20-Work/Meetings/_Meetings.md",
     "20-Work/Meetings/NK-2026-05-08.md",
+    "10-Daily/2026-05-08.md",
+    "20-Work/Meetings/_Meetings.md",
     "Templates/Blog.md",
     "40-Personal/Goals 2025.md",
     "Templates/Weekly-Review.md",
@@ -320,7 +321,6 @@
     "20-Work/Meetings",
     "Untitled 1",
     "20-Work/Projects",
-    "10-Daily.md",
     "Templates"
   ]
 }
