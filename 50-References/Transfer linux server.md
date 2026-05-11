@@ -5,3 +5,10 @@ check list:
 - backup lại public key trong file `.ssh/authorized_keys`
 - xóa public key cũ
 
+ssh key truongblx và phuctv
+```
+#ionah
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBV2zHGcYRcaXk7iokU3n5y2qtIiFu2UFl3SreOtvkep truongblx@dso
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCx5rVqUQIrB+6I5JmIM6o/gALt1WeCnomEDQkbq3+x7gk9RdBAp2XdiQbSmTQ2pOP0bEdtqll5KNL7G1E49DcIYVotWvHBAR2cxS1G1VDTH6bNgkNPT66M2oYlBlCNkxzUmKEf2kCwsUBcBOvjrxdIabsR22m8ESgby/irJXIXDNLOfsizvYZtnM56ljZlwn8rmAELenSe/o1hwsOv+B8vqs2kiV00KhEMG18qpSjh0tNdejOqmPwgyyuulDs6ucYSnDL7XDV1TCtR/JCYs2/YHMDJXt4KwpAZrtNmveOo1koyjTR8xiUKP9WtDOXEFAZDFoC/n+mlabIa9wytMwaOXfYVOCGgr9tbB2bxyzFJQZpGLU4Wkxi2qZk6kbvkyowl24xIW5J6RrtPIcF79Loe8GeAMHhtiuMRdrwV0VUgPNxBlL/CEj2r0wz3XUUmpIaJ6pl4ABTTJJwkrK4CEtMXEjiH5rrGqQfYk57OS1jkoZPqukr0eOkiU6KW41DD+9M= phuc.tran
+
+```
