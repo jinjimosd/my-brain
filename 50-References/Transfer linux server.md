@@ -32,3 +32,8 @@ vim authorized_keys
 `ssh root@10.250.104.31`
 `ssh root@10.250.104.32`
 `ssh root@10.250.218.11`
+
+```
+passwd root
+passwd user
+```
