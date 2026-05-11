@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "50-References/Transfer linux server.md",
+                "file": "10-Daily/2026-05-11.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Transfer linux server"
+              "title": "2026-05-11"
             }
           }
         ],
@@ -231,12 +231,14 @@
   },
   "active": "d6ad84759769ab52",
   "lastOpenFiles": [
-    "50-References/Mongodb.md",
+    "20-Work/Meetings/NK-2026-05-11.md",
+    "20-Work/Projects/nk.md",
+    "20-Work/Projects/_Projects.md",
+    "20-Work/_Work.md",
     "50-References/Transfer linux server.md",
+    "50-References/Mongodb.md",
     "Untitled",
     "10-Daily/2026-05-11.md",
-    "20-Work/Meetings/NK-2026-05-11.md",
-    "20-Work/_Work.md",
     "20-Work/Meetings/_Meetings.md",
     "20-Work/Meetings/NK-2026-05-08.md",
     "50-References/_References.md",
@@ -259,10 +261,8 @@
     "Templates/Incident.md",
     "40-Personal/_Personal.md",
     "30-Learning/_Learning.md",
-    "20-Work/Projects/_Projects.md",
     "20-Work/Incidents/_Incidents.md",
     "10-Daily/_Daily.md",
-    "20-Work/Untitled.md",
     "20-Work/Incidents",
     "20-Work/Meetings",
     "Untitled 1",
