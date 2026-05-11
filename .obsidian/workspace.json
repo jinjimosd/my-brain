@@ -31,12 +31,12 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Home.md",
+                    "file": "20-Work/Meetings/NK-2026-05-11.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Home"
+                  "title": "NK-2026-05-11"
                 }
               }
             ],
@@ -286,8 +286,12 @@
   },
   "active": "d6ad84759769ab52",
   "lastOpenFiles": [
-    "10-Daily/2026-05-08.md",
     "20-Work/Meetings/NK-2026-05-08.md",
+    "20-Work/Meetings/NK-2026-05-11.md",
+    "50-References/Mongodb.md",
+    "50-References/_References.md",
+    "Home.md",
+    "10-Daily/2026-05-08.md",
     "20-Work/Meetings/_Meetings.md",
     "Templates/Blog.md",
     "40-Personal/Goals 2025.md",
@@ -299,8 +303,6 @@
     "60-Archive/Incidents",
     "60-Archive/Projects",
     "60-Archive",
-    "50-References/_References.md",
-    "Home.md",
     "00-Inbox/_Inbox.md",
     "00-Inbox/NK.md",
     "00-Inbox/Untitled.md",
@@ -315,8 +317,6 @@
     "20-Work/Untitled.md",
     "10-Daily/2026-05-04.md",
     "10-Daily/{{date}}.md",
-    "00-Inbox/10-Daily.md",
-    "00-Inbox/00-Inbox.md",
     "20-Work/Incidents",
     "20-Work/Meetings",
     "Untitled 1",
