@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "20-Work/Meetings/NK-2026-05-14.md",
+                "file": "10-Daily/2026-05-21.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "NK-2026-05-14"
+              "title": "2026-05-21"
             }
           }
         ]
@@ -216,12 +216,14 @@
   },
   "active": "aaf8c8b6c0fe67e9",
   "lastOpenFiles": [
+    "10-Daily/2026-05-18.md",
+    "10-Daily/2026-05-21.md",
+    "20-Work/Meetings/NK-2026-05-14.md",
     "Home.md",
     "10-Daily/2026-05-14.md",
     "10-Daily/2026-05-12.md",
     "10-Daily/2026-05-08.md",
     "10-Daily/2026-05-11.md",
-    "10-Daily/2026-05-18.md",
     "40-Personal/2026-05-15.md",
     "20-Work/Meetings/NK-2026-05-08.md",
     "40-Personal/_Personal.md",
@@ -231,7 +233,6 @@
     "Attachments/Pasted image 20260515145320.png",
     "40-Personal/Goals 2025.md",
     "Attachments/Pasted image 20260515145144.png",
-    "20-Work/Meetings/NK-2026-05-14.md",
     "20-Work/Meetings/NK-2026-05-13.md",
     "20-Work/Projects/nk.md",
     "20-Work/_Work.md",
@@ -244,7 +245,6 @@
     "50-References/Transfer linux server.md",
     "50-References/Mongodb.md",
     "50-References/_References.md",
-    "Templates/Blog.md",
     "45-Snippets",
     "60-Archive/Daily",
     "60-Archive/Incidents",
