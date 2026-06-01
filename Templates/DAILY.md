@@ -2,9 +2,11 @@
 date: <% tp.date.now("YYYY-MM-DD") %>
 day: <% tp.date.now("dddd") %>
 week: W<% tp.date.now("WW") %>
-tags: [daily, journal]
-mood: 
-weather: 
+tags:
+  - daily
+  - journal
+mood:
+weather:
 ---
 
 # <% tp.date.now("dddd, DD/MM/YYYY") %>

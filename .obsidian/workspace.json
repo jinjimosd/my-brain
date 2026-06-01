@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10-Daily/2026-06-01.md",
+                "file": "Templates/Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-01"
+              "title": "Project"
             }
           }
         ]
@@ -211,13 +211,21 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-git:Open Git source control": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "aaf8c8b6c0fe67e9",
   "lastOpenFiles": [
-    "10-Daily/2026-05-21.md",
+    "Templates/Incident.md",
+    "Templates/Daily.md",
+    "Templates/Project.md",
+    "Templates/Weekly.md",
+    "Templates/_Templates.md",
+    "10-Daily/2026-05-08.md",
+    "Untitled.canvas",
     "10-Daily/2026-06-01.md",
+    "10-Daily/2026-05-21.md",
     "00-Inbox/Untitled.md",
     "20-Work/Incidents/NK-2026-05-12.md",
     "20-Work/Meetings/NK-2026-05-26.md",
@@ -227,7 +235,6 @@
     "Home.md",
     "10-Daily/2026-05-14.md",
     "10-Daily/2026-05-12.md",
-    "10-Daily/2026-05-08.md",
     "10-Daily/2026-05-11.md",
     "40-Personal/2026-05-15.md",
     "40-Personal/_Personal.md",
@@ -240,11 +247,6 @@
     "20-Work/Meetings/NK-2026-05-13.md",
     "20-Work/Projects/nk.md",
     "20-Work/_Work.md",
-    "20-Work/Meetings/_Meetings.md",
-    "20-Work/Projects/_Projects.md",
-    "20-Work/Incidents/_Incidents.md",
-    "20-Work/Meetings/NK-2026-05-12.md",
-    "20-Work/Meetings/NK-2026-05-11.md",
     "45-Snippets",
     "60-Archive/Daily",
     "60-Archive/Incidents",
