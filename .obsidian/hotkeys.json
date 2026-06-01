@@ -16,5 +16,14 @@
       ],
       "key": "T"
     }
+  ],
+  "periodic-notes:open-weekly-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "W"
+    }
   ]
 }

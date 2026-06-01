@@ -1,7 +1,8 @@
 ---
 week: W<% tp.date.now("WW") %>
 date: <% tp.date.now("YYYY-MM-DD") %>
-tags: [weekly-review]
+tags:
+  - weekly-review
 ---
   
 # 📊 Weekly Review — W<% tp.date.now("WW") %>
