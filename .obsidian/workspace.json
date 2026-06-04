@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-Learning/Anki Fundamentals.md",
+                "file": "30-Learning/_Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anki Fundamentals"
+              "title": "_Learning"
             }
           }
         ]
@@ -217,9 +217,10 @@
   },
   "active": "aaf8c8b6c0fe67e9",
   "lastOpenFiles": [
-    "30-Learning/Forgetting Curve.md",
     "30-Learning/Spaced Repetition.md",
     "30-Learning/Anki Fundamentals.md",
+    "30-Learning/Forgetting Curve.md",
+    "30-Learning/Case Study FSRS - 304 Ngày Streak và Học Nhẹ Mà Lâu Quên Ít.md",
     "30-Learning/Active Recall.md",
     "30-Learning/_Learning.md",
     "00-Inbox/Forgetting Curve.md",
@@ -244,7 +245,6 @@
     "20-Work/Incidents/NK-2026-05-12.md",
     "20-Work/Meetings/NK-2026-05-26.md",
     "20-Work/Meetings/NK-2026-05-08.md",
-    "20-Work/Meetings/NK-2026-05-14.md",
     "Untitled",
     "Attachments/Pasted image 20260515145320.png",
     "Attachments/Pasted image 20260515145144.png",
