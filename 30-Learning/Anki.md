@@ -36,4 +36,17 @@
 	- **Dễ cấu hình hơn** - chỉ cần điều chỉnh Desired Retention
 	- **Tích hợp sẵn** từ Anki 23.10+
 - FSRS dựa trên mô hình DSR (Difficulty, Stability, Retrievability) thay vì ease factor cố định của SM-2. Đây là một cuộc cách mạng trong spaced repetition
-- 
+- So sánh FSRS vs SM-2: Cuộc cách mạng thực sự
+
+| Tiêu chí             | SM-2 (Cũ)                      | FSRS (Mới)                        |
+| -------------------- | ------------------------------ | --------------------------------- |
+| Mô hình trí nhớ      | Ease factor + interval cố định | Mô hình DSR (D, S, R) dựa trên ML |
+| Độ chính xác         | ⭐⭐⭐                            | ⭐⭐⭐⭐⭐ (+15-25% log loss)          |
+| Cá nhân hóa          | ❌ Rất hạn chế                  | ✅ Tự học từ bạn                   |
+| Số review/ngày       | Baseline (100%)                | ↓ Giảm 20-30%                     |
+| Điều khiển retention | Gián tiếp qua settings         | Trực tiếp: Desired Retention      |
+| Độ phức tạp config   | Nhiều settings "bẫy"           | Đơn giản hơn rất nhiều            |
+
+- Bật FSRS: 
+	- Mở Desk Options (bánh răng cạnh desk) -> cuộn tìm FSRS -> Bật công tắc.
+	- 
