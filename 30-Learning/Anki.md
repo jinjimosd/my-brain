@@ -50,5 +50,6 @@
 - Bật FSRS: 
 	- Mở `Desk Options` (bánh răng cạnh desk) -> cuộn tìm FSRS -> Bật công tắc.
 	- `Desired Retention` = xác suất bạn muốn nhớ được thẻ khi review. Nên set từ 80-90%. Default là 90%. Tôi chỉnh thành 85% cho mục đích học IELTS. 
+	- Learning Steps và Relearning step: mặc định
 	- 
 	- 
