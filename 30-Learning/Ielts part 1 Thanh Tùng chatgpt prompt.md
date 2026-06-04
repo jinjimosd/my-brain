@@ -630,26 +630,26 @@ GIÚP TÔI NHỚ ĐỂ NÓI.
 Topic: Happy things
   
 Question 1:  
-Do people in your country often say thank you?  
+Do you think people are happy when buying new things? 
   
 Answer 1:  
-Yes, people in my country often say thank you. My parents taught me to show appreciation whenever someone helps me or does something kind. I think it's a simple but meaningful way to express gratitude.  
+Yes, I think people feel happy when they buy new things because it brings a sense of excitement and satisfaction. It helps them meet their personal needs and improves their quality of life. Sometimes, new stuff gives a fresh start or a boost in confidence. Overall, buying new things can definitely make people feel better.  
   
 Question 2:  
-On what occasions do people say thank you?  
+Do you feel happy when buying new things?
   
 Answer 2:  
-People usually say thank you when they receive help, gifts, or support from others. It's a common way to acknowledge someone's effort and make them feel appreciated.  
+Yes, I do feel happy when I buy new things. I usually look for useful and valuable items that can bring a new experience or make my life easier. Sometimes, I also enjoy shopping for gifts for my parents or relatives because it makes me feel closer to them. It’s a nice way to treat myself or others.
   
 Question 3:  
-Have you ever sent a thank-you card?  
+When do you feel happy at work? Why?
   
 Answer 3:  
-No, I haven't sent a thank-you card before. In my country, people usually express their thanks in person or through a message. However, I think a handwritten card would feel more personal and thoughtful.  
+I feel happy at work when I complete challenging tasks and receive recognition for my efforts. It gives me a sense of achievement and motivates me to work harder. When my colleagues appreciate my work, I feel really valued and encouraged. That positive feedback really brightens my day.
   
 Question 4:  
-Do you think people need to be thanked for their work?  
+What do you think will make you feel happy in the future?
   
 Answer 4:  
-Yes, definitely. Everyone likes to feel valued for what they do. A simple thank you can boost motivation and encourage people to keep doing their best.
+In the future, I believe having a high-paying job will make me happy because it will help me support my family and reach my goals. I also think a happy family is important, as it gives me comfort and joy. Additionally, I want to keep discovering new things and learning new skills, which makes life more exciting. Overall, achieving my dreams and sharing good times with loved ones will make me feel fulfilled.
 ```
