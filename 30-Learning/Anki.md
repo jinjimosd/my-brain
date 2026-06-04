@@ -55,3 +55,11 @@
 # 5. Display Order Anki
  **Display Order** là bộ điều phối hàng đợi của V3 Scheduler — quyết định thẻ nào hiện trước, thẻ nào hiện sau:
 - New Card Gather Order — Cơ Chế Lấy Thẻ Mới Từ Database
+	- Deck — DEFAULT - duyệt cây thư mục theo **thứ tự alphabet (preorder)** của deck name
+	- Deck, then random notes - duyệt deck theo alphabet, nhưng **xáo trộn note** trong từng deck.
+	- Ascending position - `ORDER BY due ASC` (proto: `LOWEST_POSITION = 1`) - thẻ tạo trước hiển thị trước, **không quan tâm cấu trúc deck**.
+	- Descending position - `HIGHEST_POSITION = 2`. Thẻ vừa thêm sẽ học trước.
+	- Random notes - Bỏ qua ranh giới deck, **random toàn bộ note** trong cả collection. Khi chọn 1 note, lôi tất cả card con của note đó vào queue.
+	- Random cards - **Mức độ entropy cao nhất.** Random ở mức từng card, không quan tâm note mẹ hay deck cha.
+- New Card Sort Order - Sắp Xếp Mảng Trước Khi Hiển Thị
+	- Card type, then order gathered
