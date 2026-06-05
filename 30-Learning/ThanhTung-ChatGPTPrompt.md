@@ -224,34 +224,62 @@ Loại bỏ:
 
 Bước 5: Chunk Importance Scoring
 
-Đánh giá:
+Đánh giá theo 2 tiêu chí:
 
-★★★★★  
+1. Giá trị Speaking
+2. Khả năng tái sử dụng
+
+Sử dụng thang điểm:
+
+★★★★★
 Core Chunk
 
-★★★★☆  
-Rất đáng học
+★★★★☆
+High-value Chunk
 
-★★★☆☆  
-Đáng học
+★★★☆☆
+Useful Chunk
 
-Chỉ hiển thị các chunk từ ★★★☆☆ trở lên.
+Chỉ hiển thị chunk từ ★★★☆☆ trở lên.
+
+Đồng thời gán Priority:
+
+P1 = Core Speaking Deck
+- Xuất hiện rất nhiều topic
+- Có thể dùng trong nhiều nhóm chủ đề
+- Nên học ngay
+
+P2 = Reusable Chunk
+- Dùng được trong một số topic khác
+- Đáng học
+
+P3 = Topic-Specific Chunk
+- Chủ yếu dùng cho topic hiện tại
+- Chỉ học nếu còn thời gian
 
 ---
 
 Bước 6: Cross-Topic Reinforcement
 
-Đối với mỗi chunk:
+Với mỗi chunk:
 
 Xác định:
 
-- Có thể dùng ở những topic nào khác.
-- Có phải Core Chunk của toàn bộ Speaking Part 1 hay không.
+- Có thể tái sử dụng ở topic nào.
+- Có nên đưa vào Core Speaking Deck hay không.
 
-Ưu tiên những chunk:
+Nếu chunk quá cơ bản
+(ví dụ: good, nice, thank you, friend)
 
-- Xuất hiện nhiều lần.
-- Có thể dùng ở nhiều nhóm chủ đề.
+=> KHÔNG thêm vào Core Speaking Deck.
+
+Ưu tiên:
+
+Natural Speaking Chunk
+>
+Reusable Chunk
+>
+Topic Vocabulary
 
 </thinking_process>
 
@@ -303,6 +331,22 @@ BAD
 - appreciation
 - valued
 
+Không tạo card cho:
+
+- Từ đơn lẻ quá phổ biến.
+- Chunk chỉ xuất hiện một lần và khó tái sử dụng.
+- Nội dung mà người học có thể tự suy ra dễ dàng.
+
+Ưu tiên card cho:
+
+- Speaking Chunk.
+- Functional Language.
+- Social Expressions.
+- Opinion Expressions.
+- Frequency Expressions.
+- Time Expressions.
+- Cause & Result Expressions.
+
 </anki_card_rules>
 
 <synonym_rules>
@@ -330,24 +374,20 @@ Band 7+
 
 # 🎯 Topic Formula
 
-Topic: ...
-
-Core Memory:
-
-1. ...
-2. ...
-3. ...
-
-Recovery Keywords:
-
-keyword | keyword | keyword
+| Item | Content |
+|--------|--------|
+| Topic | ... |
+| Core Idea 1 | ... |
+| Core Idea 2 | ... |
+| Core Idea 3 | ... |
+| Recovery Keywords | keyword \| keyword \| keyword |
 
 ---
 
 # 🔥 Core Chunks
 
-| Chunk | Meaning | Score |
-|---------|---------|---------|
+| Chunk | Meaning | Score | Priority | Reusable Topics |
+|---------|---------|---------|---------|---------|
 
 ---
 
@@ -367,7 +407,7 @@ keyword | keyword | keyword
 
 ---
 
-## Vocabulary Cards (Nếu cần)
+## Vocabulary Cards (Only if High Value)
 
 | Word | IPA | Meaning |
 |---------|---------|---------|
@@ -378,6 +418,17 @@ keyword | keyword | keyword
 
 | Core Chunk | Alternative | Level |
 |---------|---------|---------|
+
+---
+
+# 🏆 Core Speaking Deck Update
+
+| Chunk | Action | Reason |
+|---------|---------|---------|
+| ... | ADD | Highly reusable |
+| ... | ADD | Core Part 1 chunk |
+| ... | SKIP | Too basic |
+| ... | SKIP | Topic-specific |
 
 ---
 
@@ -413,9 +464,29 @@ Tập trung vào:
 3. Anki Cards
 4. Cross-Topic Reinforcement
 
-Ưu tiên chất lượng hơn số lượng.
+Nguyên tắc số lượng:
 
-Nếu một topic có nhiều chunk đáng học, có thể tạo nhiều card hơn.
+Không cố gắng tạo nhiều card.
+
+Chỉ tạo card cho những chunk thực sự đáng học.
+
+Số lượng card phụ thuộc vào chất lượng của topic.
+
+Thông thường:
+
+- Topic Formula: 3–5 ý
+- Core Chunks: 5–12 chunk
+- Chunk Cards: 5–10 card
+- Cloze Cards: 3–8 card
+- Vocabulary Cards: 0–5 từ
+
+Nếu topic có nhiều chunk giá trị cao,
+có thể vượt các mức trên.
+
+Nếu topic có ít nội dung đáng học,
+có thể tạo ít hơn đáng kể.
+
+Ưu tiên chất lượng hơn số lượng.
 
 Mục tiêu duy nhất:
 
