@@ -693,25 +693,25 @@ Question 1:
 Are you busier now than when you were a child?
   
 Answer 1:  
-Yes, I was praised by my homeroom teacher before. I am quite shy, so I was a little nervous when she encouraged me to become class president. She commended me for my efforts and told me I did a good job. It made me feel more confident about myself.
+Yes, I'm busier now than when I was a child. Back then, I had more free time to read comics and study, and my parents looked after me. Now, I have to manage my work and take care of myself. Life has definitely changed a lot, and I spend more time juggling different responsibilities.
   
 Question 2:  
 When are you busy?
   
 Answer 2:  
-Yes, I think parents should often praise and encourage their children. It helps them build confidence and stay motivated. However, parents should avoid giving praise randomly and focus on genuine efforts. Encouragement can motivate children to keep trying and improve themselves.
+I'm usually busy during weekdays. I work during business hours at my company, so I get there early and leave in the evening. In the evenings, I often study on my own, although sometimes I have to work overtime. It keeps me occupied most of the time.
   
 Question 3:  
 Why are you busy?
   
 Answer 3:  
-Last weekend, I praised a colleague who had completed a challenging task. He contributed a lot to the team, and I wanted to recognize his efforts. He looked really happy and it gave him more motivation to keep doing well. It’s always good to appreciate others’ hard work.
+I'm busy because I work full-time and sometimes take on extra jobs to earn more. I also spend time studying on my own to improve myself and prepare for a better future. It helps me become more independent and reach my goals. So, I’m always working hard to stay on track.
   
 Question 4:  
 Are you often busy?
   
 Answer 4:  
-When I am praised, I feel happy and proud of myself. It makes me feel that I have done something right. I really treasure the kind words they give me because it encourages me to keep trying my best. It’s always nice to know that others appreciate my efforts.
+Yes, I am often busy during the weekdays because I work full-time. In the evenings, I usually relax or catch up with my family. On weekends, I like to take some time off and enjoy my hobbies or hang out with friends. It helps me recharge for the week ahead.
 ```
 
 - Saying thank you
@@ -719,25 +719,25 @@ When I am praised, I feel happy and proud of myself. It makes me feel that I hav
 Topic: Saying thank you
   
 Question 1:  
-Are you busier now than when you were a child?
+Why do people need to say ‘thank you’?
   
 Answer 1:  
-Yes, I was praised by my homeroom teacher before. I am quite shy, so I was a little nervous when she encouraged me to become class president. She commended me for my efforts and told me I did a good job. It made me feel more confident about myself.
+People say thank you to show respect and be polite to others. It helps strengthen relationships and makes people feel appreciated. Expressing gratitude can also create a more positive atmosphere in conversations. It’s a simple way to acknowledge someone’s effort.
   
 Question 2:  
-When are you busy?
+On what occasions do you say ‘thank you’?
   
 Answer 2:  
-Yes, I think parents should often praise and encourage their children. It helps them build confidence and stay motivated. However, parents should avoid giving praise randomly and focus on genuine efforts. Encouragement can motivate children to keep trying and improve themselves.
+I usually say thank you when someone helps me or does something kind. For example, if a friend gives me a gift or holds the door open, I make sure to thank them properly. It’s a polite way to show my appreciation. I also express my gratitude when I receive good service at a restaurant or shop.
   
 Question 3:  
-Why are you busy?
+Do people in your country often say ‘thank you’?
   
 Answer 3:  
-Last weekend, I praised a colleague who had completed a challenging task. He contributed a lot to the team, and I wanted to recognize his efforts. He looked really happy and it gave him more motivation to keep doing well. It’s always good to appreciate others’ hard work.
+Yes, people in my country often say “thank you”. My parents taught me to show appreciation whenever someone helps me or gives me something. It’s a polite way to express gratitude, and sometimes it’s simply a social convention. Using these words helps maintain good relationships with others.
   
 Question 4:  
-Are you often busy?
+Have you ever sent a thank you card to others?
   
 Answer 4:  
 When I am praised, I feel happy and proud of myself. It makes me feel that I have done something right. I really treasure the kind words they give me because it encourages me to keep trying my best. It’s always nice to know that others appreciate my efforts.
