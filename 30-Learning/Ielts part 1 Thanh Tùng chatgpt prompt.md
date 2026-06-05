@@ -625,7 +625,9 @@ GIÚP TÔI NHỚ ĐỂ NÓI.
 
 ```
 
-2. Câu hỏi mẫu
+## Câu hỏi
+
+-  Happy things
 ```
 Topic: Happy things
   
@@ -653,3 +655,64 @@ What do you think will make you feel happy in the future?
 Answer 4:  
 In the future, I believe having a high-paying job will make me happy because it will help me support my family and reach my goals. I also think a happy family is important, as it gives me comfort and joy. Additionally, I want to keep discovering new things and learning new skills, which makes life more exciting. Overall, achieving my dreams and sharing good times with loved ones will make me feel fulfilled.
 ```
+
+- Praise & encouragement
+```
+Topic: Praise & encouragement
+  
+Question 1:  
+Have you ever been praised or encouraged by your teacher?
+  
+Answer 1:  
+Yes, I was praised by my homeroom teacher before. I am quite shy, so I was a little nervous when she encouraged me to become class president. She commended me for my efforts and told me I did a good job. It made me feel more confident about myself.
+  
+Question 2:  
+Do you think parents should often praise and encourage their children?
+  
+Answer 2:  
+Yes, I think parents should often praise and encourage their children. It helps them build confidence and stay motivated. However, parents should avoid giving praise randomly and focus on genuine efforts. Encouragement can motivate children to keep trying and improve themselves.
+  
+Question 3:  
+When was the last time you praised someone?
+  
+Answer 3:  
+Last weekend, I praised a colleague who had completed a challenging task. He contributed a lot to the team, and I wanted to recognize his efforts. He looked really happy and it gave him more motivation to keep doing well. It’s always good to appreciate others’ hard work.
+  
+Question 4:  
+How do you feel when you are praised?
+  
+Answer 4:  
+When I am praised, I feel happy and proud of myself. It makes me feel that I have done something right. I really treasure the kind words they give me because it encourages me to keep trying my best. It’s always nice to know that others appreciate my efforts.
+```
+
+- Being busy
+```
+Topic: Being busy
+  
+Question 1:  
+Are you busier now than when you were a child?
+  
+Answer 1:  
+Yes, I was praised by my homeroom teacher before. I am quite shy, so I was a little nervous when she encouraged me to become class president. She commended me for my efforts and told me I did a good job. It made me feel more confident about myself.
+  
+Question 2:  
+When are you busy?
+  
+Answer 2:  
+Yes, I think parents should often praise and encourage their children. It helps them build confidence and stay motivated. However, parents should avoid giving praise randomly and focus on genuine efforts. Encouragement can motivate children to keep trying and improve themselves.
+  
+Question 3:  
+Why are you busy?
+  
+Answer 3:  
+Last weekend, I praised a colleague who had completed a challenging task. He contributed a lot to the team, and I wanted to recognize his efforts. He looked really happy and it gave him more motivation to keep doing well. It’s always good to appreciate others’ hard work.
+  
+Question 4:  
+Are you often busy?
+  
+Answer 4:  
+When I am praised, I feel happy and proud of myself. It makes me feel that I have done something right. I really treasure the kind words they give me because it encourages me to keep trying my best. It’s always nice to know that others appreciate my efforts.
+```
+- Saying thank you
+
+- Spare time
