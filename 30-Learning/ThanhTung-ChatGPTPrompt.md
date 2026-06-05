@@ -1,3 +1,13 @@
+---
+tags:
+  - learning
+  - anki
+  - prompt
+  - ielts
+created: 2026-06-04
+status: done
+source:
+---
 
 1. Dưới đây là prompt tôi dùng để chatgpt sau khi tôi nhập câu hỏi và câu trả lời thì chatgpt sẽ tự động tạo ra các từ vựng, collocation để nhớ và vận dụng, cũng như có thể đưa thêm hình ảnh/từ đồng nghĩa/ví dụ
 
@@ -740,7 +750,35 @@ Question 4:
 Have you ever sent a thank you card to others?
   
 Answer 4:  
-When I am praised, I feel happy and proud of myself. It makes me feel that I have done something right. I really treasure the kind words they give me because it encourages me to keep trying my best. It’s always nice to know that others appreciate my efforts.
+No, I haven't sent a thank-you card before. In my country, people usually say thank you directly or give a small gift. However, I might try sending a card in the future to see how it goes. It could be a thoughtful way to show appreciation.
 ```
 
 - Spare time
+```
+Topic: Spare time
+  
+Question 1:  
+Would you like to have more free time in the future?
+  
+Answer 1:  
+Yes, I would love to have more free time in the future. Right now, my work keeps me busy and I don't get much time to relax. Sometimes, I feel stressed because of the busy schedule. If I had more free time, I could spend it on hobbies or just take a break from work.
+  
+Question 2:  
+Which day do you have more free time on, Saturday or Sunday?
+  
+Answer 2:  
+I usually have more free time on Sunday because I have to work on Saturday morning. I try to finish my chores and tasks on Saturday so I can relax and enjoy my Sunday. It’s nice to spend time with family or just catch up on some hobbies. Sunday feels more relaxed and less busy for me.
+  
+Question 3:  
+What do you usually do in your spare time?
+  
+Answer 3:  
+In my spare time, I usually like to play sports with my friends, like football or badminton. Sometimes, I also visit my family to catch up and spend quality time together. When I want to relax, I enjoy reading books or watching movies, especially comedy films from Stephen Chow. It’s a great way to unwind and clear my mind after a busy day.
+  
+Question 4:  
+Do you often have free time?
+  
+Answer 4:  
+Not really, I don’t have a lot of free time during the week because I work full-time and also study in the evenings. I usually make the most of my weekends when I have some free time. During those days, I like to catch up with friends or just relax at home. It’s important for me to unwind after a busy week.
+```
+
