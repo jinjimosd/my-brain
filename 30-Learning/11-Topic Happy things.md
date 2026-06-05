@@ -38,23 +38,23 @@ Future happiness comes from family, career success, personal growth, and achievi
 ---
 # High-Value Speaking Chunks
 
-|Chunk|Meaning|Frequency|
-|---|---|---|
-|feel happy when|cảm thấy vui khi|HIGH|
-|bring a sense of|mang lại cảm giác|HIGH|
-|improve quality of life|cải thiện chất lượng cuộc sống|HIGH|
-|a boost in confidence|tăng sự tự tin|HIGH|
-|bring a new experience|mang lại trải nghiệm mới|HIGH|
-|make my life easier|giúp cuộc sống dễ dàng hơn|HIGH|
-|feel closer to|cảm thấy gần gũi hơn với|HIGH|
-|treat myself|tự thưởng cho bản thân|HIGH|
-|receive recognition for my efforts|được ghi nhận cho nỗ lực của mình|HIGH|
-|a sense of achievement|cảm giác thành tựu|HIGH|
-|work harder|làm việc chăm chỉ hơn|HIGH|
-|feel valued and encouraged|cảm thấy được coi trọng và khích lệ|HIGH|
-|support my family|hỗ trợ gia đình|HIGH|
-|reach my goals|đạt được mục tiêu|HIGH|
-|achieve my dreams|đạt được ước mơ|HIGH|
+| Chunk                              | Meaning                             | Frequency |
+| ---------------------------------- | ----------------------------------- | --------- |
+| feel happy when                    | cảm thấy vui khi                    | HIGH      |
+| bring a sense of                   | mang lại cảm giác                   | HIGH      |
+| improve quality of life            | cải thiện chất lượng cuộc sống      | HIGH      |
+| a boost in confidence              | tăng sự tự tin                      | HIGH      |
+| bring a new experience             | mang lại trải nghiệm mới            | HIGH      |
+| make my life easier                | giúp cuộc sống dễ dàng hơn          | HIGH      |
+| feel closer to                     | cảm thấy gần gũi hơn với            | HIGH      |
+| treat myself                       | tự thưởng cho bản thân              | HIGH      |
+| receive recognition for my efforts | được ghi nhận cho nỗ lực của mình   | HIGH      |
+| a sense of achievement             | cảm giác thành tựu                  | HIGH      |
+| work harder                        | làm việc chăm chỉ hơn               | HIGH      |
+| feel valued and encouraged         | cảm thấy được coi trọng và khích lệ | HIGH      |
+| support my family                  | hỗ trợ gia đình                     | HIGH      |
+| reach my goals                     | đạt được mục tiêu                   | HIGH      |
+| achieve my dreams                  | đạt được ước mơ                     | HIGH      |
 
 ---
 # High-Value Collocations
