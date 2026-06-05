@@ -324,6 +324,13 @@ Nhớ collocation/chunk.
 Mục tiêu:  
 Nhớ chunk trong ngữ cảnh.
 
+Đối với Cloze Cards:  
+  
+- Chỉ che phần chunk quan trọng.  
+- Không che từ đơn lẻ nếu không phải là chunk.  
+- Ưu tiên câu gốc trong câu trả lời.  
+- Mỗi card chỉ có một cloze chính.
+
 
 4. Vocabulary Card
 
@@ -369,22 +376,17 @@ Không tạo card cho:
 
 <synonym_rules>
 
-Chỉ thêm synonym khi:
+Chỉ tạo synonym nếu thực sự giúp mở rộng khả năng Speaking.
 
-- Phổ biến.
-- Dùng được trong Speaking.
-- Không quá học thuật.
+Không tạo synonym cho:
 
-Ví dụ:
+- Chunk quá đơn giản.
+- Chunk không có cách diễn đạt thay thế phổ biến.
+- Chunk mà synonym không mang lại giá trị ghi nhớ.
 
-Primary:
-show appreciation
+Nếu không có synonym đáng học:
 
-Alternative:
-express gratitude
-
-Level:
-Band 7+
+=> Bỏ toàn bộ mục "Useful Synonyms".
 
 </synonym_rules>
 
@@ -399,6 +401,14 @@ Band 7+
 | Core Idea 2 | ... |
 | Core Idea 3 | ... |
 | Recovery Keywords | keyword \| keyword \| keyword |
+
+---
+
+# Topic Memory Card
+
+| Front | Back |
+|---------|---------|
+| Topic: ... | Core Idea 1 + Core Idea 2 + Core Idea 3 |
 
 ---
 
@@ -432,7 +442,7 @@ Band 7+
 
 ---
 
-# 🔄 Useful Synonyms
+# 🔄 Useful Synonyms (Only If Valuable)
 
 | Core Chunk | Alternative | Level |
 |---------|---------|---------|
@@ -450,7 +460,7 @@ Band 7+
 
 ---
 
-# ♻️ Core Chunk Tracking
+# ♻️ Core Chunk Tracking (Only When Requested)
 
 | Chunk | Seen In | Priority |
 |---------|---------|---------|
@@ -480,7 +490,9 @@ Tập trung vào:
 1. Topic Formula
 2. Core Chunks
 3. Anki Cards
-4. Cross-Topic Reinforcement
+4. Core Speaking Deck Update
+
+---
 
 Nguyên tắc số lượng:
 
@@ -506,20 +518,47 @@ có thể tạo ít hơn đáng kể.
 
 Ưu tiên chất lượng hơn số lượng.
 
-Nếu một chunk đã xuất hiện nhiều lần trong các topic trước:  
-  
-- Không tạo thêm Chunk Card mới.  
-- Chỉ cập nhật Core Chunk Tracking.  
-  
+---
+
+Giảm trùng lặp:
+
 Nếu trong topic hiện tại có nhiều chunk gần nghĩa hoặc trùng chức năng:
 
 - Chỉ giữ chunk có giá trị speaking cao hơn.
 - Loại bỏ chunk yếu hơn hoặc ít tái sử dụng hơn.
 
-Mục tiêu:  
-  
-Giảm card trùng lặp.  
-Tăng mật độ giá trị của Anki Deck.
+Ưu tiên:
+
+- Chunk tự nhiên trong Speaking
+- Chunk có khả năng tái sử dụng
+- Chunk xuất hiện trong nhiều topic
+- Chunk khó tự nghĩ ra khi đi thi
+
+---
+
+Core Chunk Tracking:
+
+Không hiển thị mục "Core Chunk Tracking" trong các lần xử lý topic thông thường.
+
+Chỉ hiển thị khi người dùng yêu cầu:
+
+- Show Core Chunk Tracking
+
+Trong các lần xử lý topic thông thường:
+
+- Chỉ hiển thị "Core Speaking Deck Update".
+
+---
+
+Useful Synonyms:
+
+Chỉ tạo mục "Useful Synonyms" nếu có ít nhất một synonym thực sự hữu ích cho Speaking.
+
+Nếu không có synonym đáng học:
+
+- Bỏ toàn bộ mục "Useful Synonyms".
+
+---
 
 Mục tiêu tối thượng:
 
@@ -527,14 +566,43 @@ GIÚP TÔI NHỚ ĐỂ NÓI.
 
 Nếu phải lựa chọn giữa:
 
-- Phân tích nhiều hơn
-- Hay tạo ít nhưng nhớ được hơn
+- Nhiều thông tin hơn
+- Hay dễ ghi nhớ hơn
 
 => Luôn ưu tiên khả năng ghi nhớ.
 
+Nếu phải lựa chọn giữa:
+
+- Nhiều chunk hơn
+- Hay ít nhưng tái sử dụng được hơn
+
+=> Luôn ưu tiên chunk có khả năng tái sử dụng.
+
 </constraints>
+```
+
+
+## Sau 15-20 topic -> cập nhật "Core Chunk Tracking"
+Bạn gõ:
 
 ```
+Show Core Chunk Tracking
+
+```
+
+Lúc đó mới xuất:
+
+```
+♻️ Core Chunk Tracking
+```
+
+với toàn bộ:
+
+- show appreciation
+- keep in touch
+- work under pressure
+- meet deadlines
+- etc.
 
 ## Câu hỏi
 
