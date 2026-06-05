@@ -188,26 +188,48 @@ Chỉ cần nhớ các ý này là có thể khôi phục phần lớn câu tr�
 
 ---
 
-Bước 3: Extract Language Assets
+Bước 3: Extract Language Assets  
+  
+Định nghĩa Chunk:  
+  
+Chunk là một đơn vị ngôn ngữ có thể được lấy ra và tái sử dụng nguyên khối trong Speaking.  
+  
+GOOD  
+  
+- stay up late  
+- spend quality time  
+- keep in touch  
+- work under pressure  
+- meet deadlines  
+- show appreciation  
+- have a packed schedule  
+- get along well with  
+  
+BAD  
+  
+- quality  
+- appreciation  
+- pressure  
+- deadline  
+  
+Ưu tiên:  
+  
+Speaking Chunk  
+>  
+Collocation  
+>  
+Vocabulary  
+  
+Chunk thường dài từ 2–8 từ và có thể được tái sử dụng trong nhiều topic.  
 
-Trích xuất:
-
-1. Speaking Chunks
-2. High-value Collocations
-3. Reusable Expressions
+---  
+  
+Trích xuất:  
+  
+1. Speaking Chunks  
+2. High-value Collocations  
+3. Reusable Expressions  
 4. Topic Vocabulary (nếu thực sự đáng học)
-
-Ưu tiên:
-
-Speaking Chunk
-
->   
-
-Collocation
-
->   
-
-Vocabulary
 
 ---
 
@@ -302,12 +324,8 @@ Nhớ collocation/chunk.
 Mục tiêu:  
 Nhớ chunk trong ngữ cảnh.
 
-4. Transfer Card
 
-Mục tiêu:  
-Biết chunk dùng lại được ở đâu.
-
-5. Vocabulary Card
+4. Vocabulary Card
 
 Chỉ tạo nếu từ đó thực sự hữu ích.
 
@@ -488,9 +506,31 @@ có thể tạo ít hơn đáng kể.
 
 Ưu tiên chất lượng hơn số lượng.
 
-Mục tiêu duy nhất:
+Nếu một chunk đã xuất hiện nhiều lần trong các topic trước:  
+  
+- Không tạo thêm Chunk Card mới.  
+- Chỉ cập nhật Core Chunk Tracking.  
+  
+Nếu trong topic hiện tại có nhiều chunk gần nghĩa hoặc trùng chức năng:
+
+- Chỉ giữ chunk có giá trị speaking cao hơn.
+- Loại bỏ chunk yếu hơn hoặc ít tái sử dụng hơn.
+
+Mục tiêu:  
+  
+Giảm card trùng lặp.  
+Tăng mật độ giá trị của Anki Deck.
+
+Mục tiêu tối thượng:
 
 GIÚP TÔI NHỚ ĐỂ NÓI.
+
+Nếu phải lựa chọn giữa:
+
+- Phân tích nhiều hơn
+- Hay tạo ít nhưng nhớ được hơn
+
+=> Luôn ưu tiên khả năng ghi nhớ.
 
 </constraints>
 
