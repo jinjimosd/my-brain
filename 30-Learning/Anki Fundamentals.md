@@ -203,3 +203,5 @@ Giữ mặc định:
 > Chỉ dùng ngắn hạn trước kỳ thi.
 >
 > Sau khi thi xong nên quay lại cấu hình mặc định.
+
+## 6. Các plugin cần thiết và cấu hình
