@@ -209,8 +209,14 @@ Giữ mặc định:
 > Sau khi thi xong nên quay lại cấu hình mặc định.
 
 ## 6. Các plugin cần thiết và cấu hình
-| Plugin                | Mục đích            | Code                 |
-| --------------------- | ------------------- | -------------------- |
-| New Card Gather Order | Descending Position | Ưu tiên thẻ mới nhất |
-| New / Review Order    | Show Before Reviews | Học mới trước        |
-| Review Sort Order     | Ascending Ease      | Học thẻ khó trước    |
+| Plugin                | Mục đích                                                                       | Code       |
+| --------------------- | ------------------------------------------------------------------------------ | ---------- |
+| Anki Preview Reloader | Tự Động Tải Lại Màn Xem Trước Khi Code Sửa Đổi Template Thẻ                    | 571150035  |
+| Anki Connect          | Cổng Kết Nối API Thần Thánh Ép Anki Giao Tiếp Với App Ngoài (Yomichan, VSCode) | 2055492159 |
+| AnkiWebView Inspector | Móc Khóa Debug F12 Thần Thánh Dành Cho Dev Anki                                | 31746032   |
+| Anki Editor           | Cài trên VS Code, chỉnh sửa Anki card templates                                |            |
+|                       |                                                                                |            |
+
+## 7. Thiết lập AI Studio
+- AI Studio là công cụ miễn phí từ Google cho phép bạn sử dụng các mô hình AI mạnh mẽ như Gemini để tạo template Anki. Đây là công cụ không thể thiếu trong quy trình tạo template bằng AI.
+- Các step
