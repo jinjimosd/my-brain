@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "30-Learning/ThanhTung-ChatGPTPrompt.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "ThanhTung-ChatGPTPrompt"
+            }
+          },
+          {
+            "id": "1e4bbae2060d4028",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Inbox/RDS - sql performent.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RDS - sql performent"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,10 +229,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "aaf8c8b6c0fe67e9",
+  "active": "1e4bbae2060d4028",
   "lastOpenFiles": [
     "30-Learning/ThanhTung-ChatGPTPrompt.md",
+    "00-Inbox/RDS - sql performent.md",
     "30-Learning/Spaced Repetition.md",
+    "Home.md",
     "30-Learning/Forgetting Curve.md",
     "30-Learning/Case Study FSRS - 304 Ngày Streak và Học Nhẹ Mà Lâu Quên Ít.md",
     "30-Learning/Anki Fundamentals.md",
@@ -241,8 +258,6 @@
     "10-Daily/2026-05-14.md",
     "10-Daily/2026-05-12.md",
     "10-Daily/2026-05-11.md",
-    "10-Daily/_Daily.md",
-    "Templates/Daily.md",
     "Untitled.canvas",
     "Untitled",
     "Attachments/Pasted image 20260515145320.png",
