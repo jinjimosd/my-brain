@@ -181,6 +181,10 @@ Giữ mặc định:
 
 ## Cấu hình khuyến nghị
 
+|     |     |
+| --- | --- |
+|     |     |
+
 | Setting | Giá trị | Lý do |
 |----------|----------|----------|
 | New Card Gather Order | Deck (default) | Học theo cấu trúc deck |
@@ -193,11 +197,11 @@ Giữ mặc định:
 
 ## Cấu hình học cấp tốc (Scramming)
 
-| Setting | Giá trị | Mục đích |
-|----------|----------|----------|
+| Setting               | Giá trị             | Mục đích             |
+| --------------------- | ------------------- | -------------------- |
 | New Card Gather Order | Descending Position | Ưu tiên thẻ mới nhất |
-| New / Review Order | Show Before Reviews | Học mới trước |
-| Review Sort Order | Ascending Ease | Học thẻ khó trước |
+| New / Review Order    | Show Before Reviews | Học mới trước        |
+| Review Sort Order     | Ascending Ease      | Học thẻ khó trước    |
 
 > [!warning]
 > Chỉ dùng ngắn hạn trước kỳ thi.
@@ -205,3 +209,8 @@ Giữ mặc định:
 > Sau khi thi xong nên quay lại cấu hình mặc định.
 
 ## 6. Các plugin cần thiết và cấu hình
+| Plugin                | Mục đích            | Code                 |
+| --------------------- | ------------------- | -------------------- |
+| New Card Gather Order | Descending Position | Ưu tiên thẻ mới nhất |
+| New / Review Order    | Show Before Reviews | Học mới trước        |
+| Review Sort Order     | Ascending Ease      | Học thẻ khó trước    |
