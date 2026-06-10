@@ -53,6 +53,12 @@ source:
 	- **example:** Ví dụ minh họa.
 	- **audio_word:** Âm thanh của từ.
 	- **note_extra:** Ghi chú thêm/Từ đồng nghĩa.
+	- **tag**: Phân loại/nhóm các nội dung
 
 > ⚠️ **Lưu ý quan trọng:** Hãy thống nhất đặt tên Field bằng **chữ thường** và dùng **dấu gạch dưới** `_` thay cho khoảng trắng (ví dụ: `audio_word` thay vì `Audio Word` hay `AudioWord`). Sự kỷ luật này (quy tắc snake_case) cực kỳ quan trọng để giúp AI viết code chính xác 100% và tránh lỗi không nhận diện được Field khi chạy code.
 
+### Quy trình “Order” AI Thiết Kế Giao Diện
+### 1. Viết Prompt (Câu lệnh) “Thần thánh”
+```
+Tôi muốn tạo Anki Note Template cho học tiếng Anh. Các Fields của tôi gồm: id, word, ipa, meaning, example, audio_word, note_extra, tag. Hãy viết cho tôi code Front Template, Back Template và Styling (CSS). Yêu cầu phong cách: Tối giản (Minimalist), bo tròn góc, màu sắc hiện đại (hoặc phong cách Aurora).
+```
