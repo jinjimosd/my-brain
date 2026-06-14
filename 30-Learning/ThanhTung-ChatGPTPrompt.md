@@ -155,18 +155,24 @@ Gán Priority: P1 (Core), P2 (Reusable), P3 (Topic-Specific).
 1. QUY TẮC ĐỘC QUYỀN (MUTUALLY EXCLUSIVE):
 Mỗi chunk/từ vựng CHỈ ĐƯỢC TẠO 1 THẺ DUY NHẤT. Tuyệt đối không tạo vừa thẻ Basic vừa thẻ Cloze cho cùng một từ.
 
-2. CẤU TRÚC FIELD CỦA THẺ ANKI CHI TIẾT:
+2. CẤU TRÚC 9 FIELDS CỦA THẺ ANKI CHI TIẾT:
 - [Type]: Dạng thẻ. Chọn "Basic" hoặc "Cloze". (Ưu tiên Cloze cho các chunk dài, ưu tiên Basic cho vocab/collocation ngắn).
+- [ID]: Mã định danh duy nhất gồm Viết tắt Topic + Số thứ tự (VD: Topic Spare Time -> ST-01, ST-02).
 - [Front]: 
    + Nếu Type=Basic: Ghi Chunk tiếng Anh.
    + Nếu Type=Cloze: Ghi câu tiếng Anh có chứa chunk đục lỗ (VD: I usually {{c1::stay up late}} to study).
 - [Back]: Nghĩa tiếng Việt ngắn gọn. (Nếu Type=Cloze, Back là nghĩa của phần bị đục lỗ).
 - [IPA]: Phiên âm chuẩn quốc tế.
 - [Band]: Range điểm IELTS (VD: 6.5 - 7.0).
-- [Example]: Câu ví dụ ngắn gọn, tự nhiên (Lấy từ bài gốc nếu có).
+- [Example]: Câu ví dụ ngắn gọn, tự nhiên (Lấy từ bài gốc nếu có. Nếu Type=Cloze có thể lấy thêm câu ngữ cảnh).
+- [Audio]: Luôn để trống cột này (Tôi sẽ tự thêm âm thanh sau).
+- [Note]: Ghi chú ngắn gọn về ngữ pháp, giới từ đi kèm, hoặc sắc thái nghĩa (Nếu không có gì đặc biệt thì để trống).
+- [Tag]: Gắn thẻ theo cú pháp `topic:ten_topic_viet_lien_khong_dau` (VD: topic:spare_time).
 
-3. SỐ LƯỢNG GIỚI HẠN:
-Mỗi topic CHỈ tạo tối đa 5-8 thẻ Anki chất lượng nhất. Không tạo tràn lan.
+1. SỐ LƯỢNG GIỚI HẠN: 
+- Tiêu chuẩn: Ưu tiên tạo 5-8 thẻ Anki chất lượng nhất cho mỗi topic (tập trung vào Core Chunks).
+- Linh hoạt: NẾU topic có nhiều chunk thực sự xuất sắc (Band 7.0+, tính ứng dụng cực cao, khó tự nghĩ ra), bạn được phép tăng số lượng lên tối đa 10-12 thẻ.
+- Tuyệt đối KHÔNG tạo tràn lan các cụm từ tầm thường hoặc trùng lặp ý tưởng chỉ để nhồi nhét.
 
 </anki_card_rules>
 
@@ -195,17 +201,17 @@ Mỗi topic CHỈ tạo tối đa 5-8 thẻ Anki chất lượng nhất. Không 
 ---
 
 # 🧠 Optimized Anki Deck (1 Chunk = 1 Card)
-| Type | Front | Back | IPA | Band | Example |
-|---------|---------|---------|---------|---------|---------|
-| Cloze | I often {{c1::stay up late}} | thức khuya | /steɪ ʌp leɪt/ | 6.0-6.5 | ... |
-| Basic | sedentary lifestyle | lối sống thụ động | /ˈsed.ən.tər.i/ | 7.0-7.5 | ... |
+| Type | ID | Front | Back | IPA | Band | Example | Audio | Note | Tag |
+|---|---|---|---|---|---|---|---|---|---|
+| Cloze | ST-01 | I often {{c1::stay up late}} | thức khuya | /steɪ ʌp leɪt/ | 6.0-6.5 | I usually stay up late to finish my assignments. | | Thường đi với 'to V' | topic:spare_time |
+| Basic | ST-02 | sedentary lifestyle | lối sống thụ động | /ˈsed.ən.tər.i/ | 7.0-7.5 | A sedentary lifestyle can lead to health issues. | | Đi với động từ 'lead a' | topic:spare_time |
 
 ---
 
 # 🏆 Core Deck Update
 | Chunk | Action | Reason |
 |---------|---------|---------|
-| ... | ADD | Highly reusable |
+| ... | ADD | Highly reusable across topics |
 
 </output_template>
 

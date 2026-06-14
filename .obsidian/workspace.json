@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-Learning/Anki Advanced.md",
-                "mode": "source",
+                "file": "30-Learning/ThanhTung-ChatGPTPrompt.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anki Advanced"
+              "title": "ThanhTung-ChatGPTPrompt"
             }
           }
         ],
@@ -231,10 +231,10 @@
   },
   "active": "1e4bbae2060d4028",
   "lastOpenFiles": [
+    "30-Learning/Anki Advanced.md",
     "30-Learning/Anki Fundamentals.md",
     "30-Learning/ThanhTung-ChatGPTPrompt.md",
     "30-Learning/Spaced Repetition.md",
-    "30-Learning/Anki Advanced.md",
     "30-Learning/Active Recall.md",
     "30-Learning/IELTS-TungAnh-Speaking-Part1.md",
     "00-Inbox/RDS - sql performent.md",
