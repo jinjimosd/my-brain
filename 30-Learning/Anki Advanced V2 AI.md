@@ -40,9 +40,8 @@ Cả 2 Note Types này **BẮT BUỘC** phải có chung cấu trúc gồm **
 
 Cơ chế: Mặt trước hiện Nghĩa Tiếng Việt -> Người học gõ cụm từ Tiếng Anh vào ô trống -> Mặt sau chấm điểm đúng/sai từng chữ.
 **📍 Front Template:**
-codeHtml
 
-```
+```html
 <div class="card-container">
     {{#Band}}
         <div class="band-badge">🎯 {{Band}}</div>
@@ -70,9 +69,7 @@ codeHtml
 
 **📍 Back Template:**
 
-codeHtml
-
-```
+```html
 <div class="card-container">
     {{#Band}}
         <div class="band-badge">🎯 {{Band}}</div>
@@ -126,9 +123,7 @@ Cơ chế: Mặt trước hiện câu Tiếng Anh bị đục lỗ kèm gợi ý
 
 **📍 Front Template:**
 
-codeHtml
-
-```
+```html
 <div class="card-container">
     {{#Band}}
         <div class="band-badge">🎯 {{Band}}</div>
@@ -158,9 +153,7 @@ codeHtml
 
 **📍 Back Template:**
 
-codeHtml
-
-```
+```html
 <div class="card-container">
     {{#Band}}
         <div class="band-badge">🎯 {{Band}}</div>
@@ -217,31 +210,37 @@ codeHtml
 
 Copy toàn bộ CSS dưới đây dán vào phần Styling của cả 2 Note Types.
 
-codeCSS
-
-```
+```CSS
 /* --- GLOBAL & BACKGROUND --- */
 .card {
     font-family: 'Inter', 'Segoe UI', sans-serif;
-    font-size: 16px; text-align: center; color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
     background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #064e3b 100%);
-    background-attachment: fixed; margin: 0; padding: 20px;
-    display: flex; justify-content: center; align-items: center; min-height: 90vh;
+    background-attachment: fixed;
+    margin: 0; padding: 20px;
+    display: flex; justify-content: center; align-items: center;
+    min-height: 90vh;
 }
 
 /* --- CONTAINER --- */
 .card-container {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 24px;
-    padding: 45px 30px 25px 30px; max-width: 480px; width: 100%;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); margin: auto; position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding: 45px 30px 25px 30px;
+    max-width: 480px; width: 100%;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    margin: auto; position: relative;
 }
 
 /* --- BADGE --- */
 .band-badge {
     position: absolute; top: 15px; right: 20px;
-    background: rgba(16, 185, 129, 0.15); border: 1px solid rgba(16, 185, 129, 0.4);
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid rgba(16, 185, 129, 0.4);
     color: #34d399; padding: 4px 12px; border-radius: 20px;
     font-size: 0.85rem; font-weight: 700; box-shadow: 0 0 10px rgba(16, 185, 129, 0.2);
 }
@@ -253,8 +252,13 @@ input#typeans {
     background: rgba(0, 0, 0, 0.3); border: 2px solid rgba(255, 255, 255, 0.2);
     border-radius: 16px; color: #ffffff; outline: none; transition: all 0.3s ease; margin-top: 15px;
 }
-input#typeans:focus { border-color: #00f2fe; box-shadow: 0 0 15px rgba(0, 242, 254, 0.3); background: rgba(0, 0, 0, 0.5); }
-.typing-result { font-size: 1.5rem; font-weight: 700; margin-bottom: 10px; background: rgba(0, 0, 0, 0.3); padding: 15px; border-radius: 16px; line-height: 1.5; }
+input#typeans:focus {
+    border-color: #00f2fe; box-shadow: 0 0 15px rgba(0, 242, 254, 0.3); background: rgba(0, 0, 0, 0.5);
+}
+.typing-result {
+    font-size: 1.5rem; font-weight: 700; margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.3); padding: 15px; border-radius: 16px; line-height: 1.5;
+}
 .typeGood { color: #10b981; }
 .typeBad { color: #ef4444; text-decoration: line-through; opacity: 0.8; }
 .typeMissed { color: #fbbf24; }
@@ -267,7 +271,9 @@ input#typeans:focus { border-color: #00f2fe; box-shadow: 0 0 15px rgba(0, 242, 2
     -webkit-background-clip: text; -webkit-text-fill-color: transparent;
     border-bottom: 2px dashed #00f2fe; padding: 0 5px;
 }
-.hint-box { margin-top: 20px; padding-top: 15px; border-top: 1px dashed rgba(255, 255, 255, 0.2); text-align: center; }
+.hint-box {
+    margin-top: 20px; padding-top: 15px; border-top: 1px dashed rgba(255, 255, 255, 0.2); text-align: center;
+}
 .hint-box .label { font-size: 0.8rem; color: #94a3b8; margin-bottom: 5px; }
 .meaning-hint { font-size: 1.1rem; color: #cbd5e1; font-style: italic; }
 
@@ -282,7 +288,9 @@ input#typeans:focus { border-color: #00f2fe; box-shadow: 0 0 15px rgba(0, 242, 2
 .meaning { font-size: 1.3rem; font-weight: 600; color: #e2e8f0; line-height: 1.4; }
 
 /* --- INFO BOXES --- */
-.info-box { background: rgba(0, 0, 0, 0.2); border-radius: 16px; padding: 15px 20px; margin-bottom: 15px; text-align: left; border-left: 4px solid transparent; }
+.info-box {
+    background: rgba(0, 0, 0, 0.2); border-radius: 16px; padding: 15px 20px; margin-bottom: 15px; text-align: left; border-left: 4px solid transparent;
+}
 .example-box { border-left-color: #a78bfa; }
 .note-box { border-left-color: #fbbf24; }
 .ipa-box { border-left-color: #34d399; padding: 10px 20px; }
@@ -295,9 +303,27 @@ input#typeans:focus { border-color: #00f2fe; box-shadow: 0 0 15px rgba(0, 242, 2
 .ipa-text { font-family: 'Lucida Sans Unicode', sans-serif; color: #a7f3d0; }
 
 /* --- FOOTER (TAG & ID) --- */
-.footer-section { display: flex; justify-content: space-between; align-items: center; margin-top: 30px; padding-top: 15px; border-top: 1px solid rgba(255, 255, 255, 0.1); }
-.tag-pill { background: rgba(255, 255, 255, 0.1); padding: 4px 12px; border-radius: 12px; font-size: 0.75rem; color: #94a3b8; letter-spacing: 0.5px; }
-.card-id { font-size: 0.7rem; color: #64748b; font-family: monospace; }
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.tag-pill {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    color: #94a3b8;
+    letter-spacing: 0.5px;
+}
+.card-id {
+    font-size: 0.7rem;
+    color: #64748b;
+    font-family: monospace;
+}
 ```
 
 ---
