@@ -22,6 +22,7 @@ source:
 | Anki Connect          | Cổng Kết Nối API Thần Thánh Ép Anki Giao Tiếp Với App Ngoài (Yomichan, VSCode) | 2055492159 |
 | AnkiWebView Inspector | Móc Khóa Debug F12 Thần Thánh Dành Cho Dev Anki                                | 31746032   |
 | Anki Editor           | Cài trên VS Code, chỉnh sửa Anki card templates                                |            |
+| Anki for VSCode       | Cài trên VS Code, đẩy card sang Anki                                           |            |
 
 ---
 
