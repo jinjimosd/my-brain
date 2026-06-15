@@ -62,3 +62,68 @@ source:
 ```
 Tôi muốn tạo Anki Note Template cho học tiếng Anh. Các Fields của tôi gồm: id, word, ipa, meaning, example, audio_word, note_extra, tag. Hãy viết cho tôi code Front Template, Back Template và Styling (CSS). Yêu cầu phong cách: Tối giản (Minimalist), bo tròn góc, màu sắc hiện đại (hoặc phong cách Aurora).
 ```
+
+## 2. Prompt tạo anki card từ table kết quả của chatgpt
+```
+<role>
+Hãy đóng vai trò là một chuyên gia xử lý dữ liệu cho Anki. Nhiệm vụ của bạn là chuyển đổi bảng từ vựng tôi cung cấp dưới đây thành định dạng Markdown chuẩn xác dành cho extension "Anki Editor" trên VS Code.
+</role>
+
+<rules>
+1. TÊN DECK: 
+Bắt đầu bằng `## IELTS_speaking_tunganh_p1` (Hoặc tên deck bạn muốn, giữ nguyên dấu ##).
+
+2. PHÂN LOẠI MODEL (Rất quan trọng):
+- Nếu cột Type trong bảng là "Basic" -> Ghi `- model: Ielts Minimalist`
+- Nếu cột Type trong bảng là "Cloze" -> Ghi `- model: Ielts Cloze Minimalist`
+
+3. XỬ LÝ TAGS:
+Lấy dữ liệu từ cột Tag trong bảng và đưa vào dòng `- tags: ...`
+
+4. CẤU TRÚC CÁC TRƯỜNG (FIELDS):
+Mỗi thẻ phải bắt đầu bằng `### [ID của thẻ]` và bao gồm CHÍNH XÁC 9 fields sau (không được tự ý thêm bớt):
+- ID: [Dữ liệu cột ID]
+- Front: [Dữ liệu cột Front]
+- Back: [Dữ liệu cột Back]
+- IPA: [Dữ liệu cột IPA]
+- Band: [Dữ liệu cột Band]
+- Example: [Dữ liệu cột Example]
+- Audio: (Luôn để trống)
+- Note: [Dữ liệu cột Note]
+- Tag: [Dữ liệu cột Tag]
+
+5. ĐỊNH DẠNG ĐẦU RA:
+- Chỉ xuất ra DUY NHẤT một block code Markdown (nằm trong dấu ```markdown ... ```).
+- Không giải thích gì thêm, không viết văn bản thừa ở ngoài block code để tôi có thể copy nhanh nhất.
+</rules>
+
+<example_output>
+```markdown
+## IELTS Speaking
+
+### ST-01
+- model: Ielts Cloze Minimalist
+- tags: topic:spare_time
+- ID: ST-01
+- Front: If I had more free time, I could {{c1::take a break from work}}.
+- Back: nghỉ ngơi khỏi công việc
+- IPA: /teɪk ə breɪk frəm wɜːk/
+- Band: 6.5-7.0
+- Example: Everyone needs to take a break from work sometimes.
+- Audio: 
+- Note: Fixed expression
+- Tag: topic:spare_time
+
+### ST-02
+- model: Ielts Minimalist
+- tags: topic:spare_time
+- ID: ST-02
+- Front: spend quality time (with)
+- Back: dành thời gian chất lượng với
+- IPA: /spend ˈkwɒləti taɪm/
+- Band: 7.0-7.5
+- Example: I enjoy spending quality time with my family.
+- Audio: 
+- Note: One of the best Family chunks
+- Tag: topic:spare_time
+```
