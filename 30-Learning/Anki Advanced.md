@@ -16,13 +16,13 @@ source:
 
 ---
 ## 1. Các plugin cần thiết và cấu hình
-| Plugin                | Mục đích                                                                       | Code       |
-| --------------------- | ------------------------------------------------------------------------------ | ---------- |
-| Anki Preview Reloader | Tự Động Tải Lại Màn Xem Trước Khi Code Sửa Đổi Template Thẻ                    | 571150035  |
-| Anki Connect          | Cổng Kết Nối API Thần Thánh Ép Anki Giao Tiếp Với App Ngoài (Yomichan, VSCode) | 2055492159 |
-| AnkiWebView Inspector | Móc Khóa Debug F12 Thần Thánh Dành Cho Dev Anki                                | 31746032   |
-| Anki Editor           | Cài trên VS Code, chỉnh sửa Anki card templates                                |            |
-| Anki for VSCode       | Cài trên VS Code, đẩy card sang Anki                                           |            |
+| Plugin                               | Mục đích                                                                                      | Code       |
+| ------------------------------------ | --------------------------------------------------------------------------------------------- | ---------- |
+| Anki Preview Reloader                | Tự Động Tải Lại Màn Xem Trước Khi Code Sửa Đổi Template Thẻ                                   | 571150035  |
+| Anki Connect                         | Cổng Kết Nối API Thần Thánh Ép Anki Giao Tiếp Với App Ngoài (Yomichan, VSCode)                | 2055492159 |
+| AnkiWebView Inspector                | Móc Khóa Debug F12 Thần Thánh Dành Cho Dev Anki                                               | 31746032   |
+| Anki Editor                          | Cài trên VS Code, chỉnh sửa Anki card templates                                               |            |
+| Super Free TTS — Generate Free Audio | A fork of HyperTTS, rebuilt so everything stays free, có giọng EdgeTTS (Microsoft có cảm xúc) | 351217314  |
 
 ---
 
@@ -115,3 +115,18 @@ Dưới đây là bảng dữ liệu của tôi, hãy xử lý nó:
 	- Existing notes: Update
 	- Field mapping: tags=tag
 - Sau khi import xong nhớ xóa card header thừa đi (chỉ có id trống)
+
+## 4. Áp dụng Super Free TTS — Generate Free Audio
+- **Id addon**: 351217314
+- Cách thêm voice:
+	- Vào **Browse**, chọn các thẻ cần thêm tiếng.
+	-  Super Free TTS → Generate Audio Files.
+	- Chọn giọng ở **Voice Selection**. Tùy theo service, một số giọng cho phép chỉnh **Rate** (tốc độ) và **Pitch** (độ cao), một số thì không.
+	- Dùng **Mapping Rules** để tự động gán giọng theo Deck hoặc Note Type — không cần chọn lại mỗi lần.
+	- Nhấn **Start**.
+- Chú ý: ở type Basic, ta chọn source là Example để nghe cả Accent của giọng AI mẫu
+- Các giọng AI hay như ảnh dưới
+![[Pasted image 20260617021031.png]]
+
+- Còn như dưới đây là kết quả
+![[Pasted image 20260617020304.png]]
