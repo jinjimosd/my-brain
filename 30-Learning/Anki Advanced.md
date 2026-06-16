@@ -104,7 +104,14 @@ Dưới đây là bảng dữ liệu của tôi, hãy xử lý nó:
 
 1. Copy **Bảng 1** từ ChatGPT -> Dán vào Excel -> Lưu tên là basic.csv.
 2. Copy **Bảng 2** từ ChatGPT -> Dán vào Excel -> Lưu tên là cloze.csv.
-3. Mở Anki -> Bấm **Import File**:
+3. Mở Anki -> Bấm **Import File** (hoặc command + shift + I):
     - Chọn file basic.csv -> Chọn Note Type là **Ielts Minimalist**.
     - Chọn file cloze.csv -> Chọn Note Type là **Ielts Cloze Minimalist**.  
         (Anki sẽ tự động khớp 9 cột trong file CSV vào đúng 9 fields của bạn vì thứ tự đã chuẩn 100%).
+	Chú ý: 
+	- Field separator: Comma 
+	- Note type: chọn đúng type
+	- Desk: đúng desk
+	- Existing notes: Update
+	- Field mapping: tags=tag
+- Sau khi import xong nhớ xóa card header thừa đi (chỉ có id trống)
