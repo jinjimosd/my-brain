@@ -67,64 +67,44 @@ Tôi muốn tạo Anki Note Template cho học tiếng Anh. Các Fields của t�
 ## 2. Prompt tạo anki card từ table kết quả của chatgpt
 ```
 <role>
-Hãy đóng vai trò là một chuyên gia xử lý dữ liệu cho Anki. Nhiệm vụ của bạn là chuyển đổi bảng từ vựng tôi cung cấp dưới đây thành định dạng Markdown chuẩn xác dành cho extension "Anki Editor" trên VS Code.
+Hãy đóng vai trò là một chuyên gia xử lý dữ liệu cho Anki. Nhiệm vụ của bạn là phân loại và chuyển đổi bảng từ vựng tôi cung cấp dưới đây thành 2 bảng Markdown riêng biệt. Mục đích là để tôi copy dán vào Excel và xuất ra file CSV import vào Anki.
 </role>
 
 <rules>
-1. TÊN DECK: 
-Bắt đầu bằng `## IELTS_speaking_tunganh_p1` (Hoặc tên deck bạn muốn, giữ nguyên dấu ##).
+1. TÁCH THÀNH 2 BẢNG:
+- BẢNG 1: Dành cho thẻ Basic (Chỉ lấy các dòng có Type là "Basic").
+- BẢNG 2: Dành cho thẻ Cloze (Chỉ lấy các dòng có Type là "Cloze").
 
-2. PHÂN LOẠI MODEL (Rất quan trọng):
-- Nếu cột Type trong bảng là "Basic" -> Ghi `- model: Ielts Minimalist`
-- Nếu cột Type trong bảng là "Cloze" -> Ghi `- model: Ielts Cloze Minimalist`
+2. CẤU TRÚC CỘT (RẤT QUAN TRỌNG):
+Cả 2 bảng BẮT BUỘC phải có CHÍNH XÁC 9 cột theo đúng thứ tự sau (Không được chứa cột Type nữa):
+| ID | Front | Back | IPA | Band | Example | Audio | Note | Tag |
 
-3. XỬ LÝ TAGS:
-Lấy dữ liệu từ cột Tag trong bảng và đưa vào dòng `- tags: ...`
-
-4. CẤU TRÚC CÁC TRƯỜNG (FIELDS):
-Mỗi thẻ phải bắt đầu bằng `### [ID của thẻ]` và bao gồm CHÍNH XÁC 9 fields sau (không được tự ý thêm bớt):
-- ID: [Dữ liệu cột ID]
-- Front: [Dữ liệu cột Front]
-- Back: [Dữ liệu cột Back]
-- IPA: [Dữ liệu cột IPA]
-- Band: [Dữ liệu cột Band]
-- Example: [Dữ liệu cột Example]
-- Audio: (Luôn để trống)
-- Note: [Dữ liệu cột Note]
-- Tag: [Dữ liệu cột Tag]
-
-5. ĐỊNH DẠNG ĐẦU RA:
-- Chỉ xuất ra DUY NHẤT một block code Markdown (nằm trong dấu ```markdown ... ```).
-- Không giải thích gì thêm, không viết văn bản thừa ở ngoài block code để tôi có thể copy nhanh nhất.
+3. XỬ LÝ DỮ LIỆU:
+- Cột Audio: Luôn để trống.
+- Cột Tag: Giữ nguyên định dạng `topic:ten_topic`.
+- Không giải thích dài dòng, chỉ in ra 2 bảng.
 </rules>
 
 <example_output>
-```markdown
-## IELTS Speaking
+### 1. File CSV cho thẻ Basic (Note Type: Ielts Minimalist)
+| ID | Front | Back | IPA | Band | Example | Audio | Note | Tag |
+|---|---|---|---|---|---|---|---|---|
+| ST-02 | spend quality time (with) | dành thời gian chất lượng với | /spend ˈkwɒləti taɪm/ | 7.0-7.5 | I enjoy spending quality time with my family. | | | topic:spare_time |
 
-### ST-01
-- model: Ielts Cloze Minimalist
-- tags: topic:spare_time
-- ID: ST-01
-- Front: If I had more free time, I could {{c1::take a break from work}}.
-- Back: nghỉ ngơi khỏi công việc
-- IPA: /teɪk ə breɪk frəm wɜːk/
-- Band: 6.5-7.0
-- Example: Everyone needs to take a break from work sometimes.
-- Audio: 
-- Note: Fixed expression
-- Tag: topic:spare_time
+### 2. File CSV cho thẻ Cloze (Note Type: Ielts Cloze Minimalist)
+| ID | Front | Back | IPA | Band | Example | Audio | Note | Tag |
+|---|---|---|---|---|---|---|---|---|
+| ST-01 | If I had more free time, I could {{c1::take a break from work}}. | nghỉ ngơi khỏi công việc | /teɪk ə breɪk frəm wɜːk/ | 6.5-7.0 | Everyone needs to take a break from work sometimes. | | Fixed expression | topic:spare_time |
+</example_output>
 
-### ST-02
-- model: Ielts Minimalist
-- tags: topic:spare_time
-- ID: ST-02
-- Front: spend quality time (with)
-- Back: dành thời gian chất lượng với
-- IPA: /spend ˈkwɒləti taɪm/
-- Band: 7.0-7.5
-- Example: I enjoy spending quality time with my family.
-- Audio: 
-- Note: One of the best Family chunks
-- Tag: topic:spare_time
+Dưới đây là bảng dữ liệu của tôi, hãy xử lý nó:
 ```
+
+## 3.  Quy trình Import CSV siêu nhàn:
+
+1. Copy **Bảng 1** từ ChatGPT -> Dán vào Excel -> Lưu tên là basic.csv.
+2. Copy **Bảng 2** từ ChatGPT -> Dán vào Excel -> Lưu tên là cloze.csv.
+3. Mở Anki -> Bấm **Import File**:
+    - Chọn file basic.csv -> Chọn Note Type là **Ielts Minimalist**.
+    - Chọn file cloze.csv -> Chọn Note Type là **Ielts Cloze Minimalist**.  
+        (Anki sẽ tự động khớp 9 cột trong file CSV vào đúng 9 fields của bạn vì thứ tự đã chuẩn 100%).
