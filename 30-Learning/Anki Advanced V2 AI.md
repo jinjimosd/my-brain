@@ -130,7 +130,7 @@ Cơ chế: Mặt trước hiện câu Tiếng Anh bị đục lỗ kèm gợi ý
     {{/Band}}
 
     <div class="cloze-section">
-        <div class="text">{{cloze:Front}}</div>
+        <div class="text">{{type:cloze:Front}}</div>
     </div>
 
     {{#Back}}
@@ -160,7 +160,7 @@ Cơ chế: Mặt trước hiện câu Tiếng Anh bị đục lỗ kèm gợi ý
     {{/Band}}
 
     <div class="cloze-section">
-        <div class="text">{{cloze:Front}}</div>
+        <div class="text">{{type:cloze:Front}}</div>
         {{#Audio}}
             <div class="audio">{{Audio}}</div>
         {{/Audio}}
