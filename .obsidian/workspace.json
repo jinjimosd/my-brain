@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30-Learning/Anki Advanced.md",
+                "file": "20-Work/Projects/nk.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Anki Advanced"
+              "title": "nk"
             }
           }
         ],
@@ -231,12 +231,13 @@
   },
   "active": "1e4bbae2060d4028",
   "lastOpenFiles": [
+    "20-Work/Projects/_Projects.md",
+    "30-Learning/Anki Advanced.md",
     "Attachments/Pasted image 20260617021031.png",
     "Attachments/Pasted image 20260617020304.png",
     "30-Learning/Anki Advanced V2 AI.md",
     "20-Work/Incidents/NK-2026-05-15.md",
     "20-Work/Incidents/NK-2026-05-12.md",
-    "30-Learning/Anki Advanced.md",
     "30-Learning/IELTS_speaking_tunganh_p1.md",
     "30-Learning/IELTS-speaking_tunganh_p1.md",
     "30-Learning/Anki Fundamentals.md",
