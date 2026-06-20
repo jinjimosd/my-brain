@@ -8,8 +8,8 @@ created: 2026-06-04
 status: done
 source:
 ---
-
-1. Dưới đây là prompt tôi dùng để chatgpt sau khi tôi nhập câu hỏi và câu trả lời thì chatgpt sẽ tự động tạo ra các từ vựng, collocation để nhớ và vận dụng, cũng như có thể đưa thêm hình ảnh/từ đồng nghĩa/ví dụ
+# 1. Prompt tạo từ vựng anki
+- Dưới đây là prompt tôi dùng để chatgpt sau khi tôi nhập câu hỏi và câu trả lời thì chatgpt sẽ tự động tạo ra các từ vựng, collocation để nhớ và vận dụng, cũng như có thể đưa thêm hình ảnh/từ đồng nghĩa/ví dụ
 
 ```
 <role>
@@ -248,9 +248,9 @@ với toàn bộ:
 - meet deadlines
 - etc.
 
-## Câu hỏi
+# 2. Câu hỏi
 
--  Happy things
+## Happy things
 ```
 Topic: Happy things
   
@@ -279,7 +279,7 @@ Answer 4:
 In the future, I believe having a high-paying job will make me happy because it will help me support my family and reach my goals. I also think a happy family is important, as it gives me comfort and joy. Additionally, I want to keep discovering new things and learning new skills, which makes life more exciting. Overall, achieving my dreams and sharing good times with loved ones will make me feel fulfilled.
 ```
 
-- Praise & encouragement
+## Praise & encouragement
 ```
 Topic: Praise & encouragement
   
@@ -308,7 +308,7 @@ Answer 4:
 When I am praised, I feel happy and proud of myself. It makes me feel that I have done something right. I really treasure the kind words they give me because it encourages me to keep trying my best. It’s always nice to know that others appreciate my efforts.
 ```
 
-- Being busy
+## Being busy
 ```
 Topic: Being busy
   
@@ -337,7 +337,7 @@ Answer 4:
 Yes, I am often busy during the weekdays because I work full-time. In the evenings, I usually relax or catch up with my family. On weekends, I like to take some time off and enjoy my hobbies or hang out with friends. It helps me recharge for the week ahead.
 ```
 
-- Saying thank you
+## Saying thank you
 ```
 Topic: Saying thank you
   
@@ -366,7 +366,7 @@ Answer 4:
 No, I haven't sent a thank-you card before. In my country, people usually say thank you directly or give a small gift. However, I might try sending a card in the future to see how it goes. It could be a thoughtful way to show appreciation.
 ```
 
-- Spare time
+## Spare time
 ```
 Topic: Spare time
   
@@ -393,4 +393,62 @@ Do you often have free time?
   
 Answer 4:  
 Not really, I don’t have a lot of free time during the week because I work full-time and also study in the evenings. I usually make the most of my weekends when I have some free time. During those days, I like to catch up with friends or just relax at home. It’s important for me to unwind after a busy week.
+```
+
+## Staying up
+```
+Topic: Staying up
+  
+Question 1:  
+What does it feel like the next morning if you stay up late?
+  
+Answer 1:  
+The next morning, I usually wake up feeling really tired and not very sharp. I often feel groggy and find it hard to focus on anything. Sometimes, I even get a headache because I stayed up late. It definitely affects my day and I wish I could sleep earlier.
+  
+Question 2:  
+What do you do when you stay up late?
+  
+Answer 2:  
+When I stay up late, I usually play video games or watch movies. Sometimes I get carried away and binge-watch a lot of episodes, even though I know it’s not good for me. I also tend to stay online chatting with friends or scroll through social media. I really need to control this habit better, but sometimes it’s really hard to break the cycle.
+  
+Question 3:  
+Did you stay up late when you were a kid?
+  
+Answer 3:  
+Yes, I did stay up late when I was a kid, but only occasionally. My parents advised me to go to bed early, so I kept a habit of sleeping on time most nights. However, sometimes I stayed awake to study or read comics. Back then, there were no smartphones, so I didn't get distracted by social media.
+  
+Question 4:  
+Do you often stay up late?
+  
+Answer 4:  
+Not really, I usually go to bed early and try not to stay up late. Sometimes, I stay up late if I have extra work or need to prepare for exams. In the past, I used to stay up late more often just for fun, like watching movies or hanging out with friends, but I found it had a negative effect on my health. Now, I prefer to keep a healthy sleep schedule.
+```
+
+## Tiredness
+```
+Topic: Tiredness
+
+Question 1:  
+What kinds of things make you tired?
+  
+Answer 1:
+The next morning, I usually wake up feeling really tired and not very sharp. I often feel groggy and find it hard to focus on anything. Sometimes, I even get a headache because I stayed up late. It definitely affects my day and I wish I could sleep earlier.
+  
+Question 2:
+What do you do when you feel tired?
+
+Answer 2:
+
+
+Question 3:
+What do you do when you feel tired?
+
+Answer 3:
+
+
+Question 4:
+What do you do when you feel tired?
+
+Answer 4:
+
 ```
