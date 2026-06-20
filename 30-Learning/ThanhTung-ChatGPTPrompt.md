@@ -136,7 +136,7 @@ Bước 2: Build Topic Formula
 Tìm 3–5 ý chính nhất để khôi phục trí nhớ.
 
 Bước 3: Extract Language Assets
-Trích xuất: 1. Speaking Chunks | 2. High-value Collocations | 3. Topic Vocab
+Trích xuất: 1. Speaking Chunks  2. High-value Collocations  3. Topic Vocab
 Gán IELTS Band Score Range (VD: 6.0-6.5, 7.0-7.5, 8.0+) cho mỗi chunk/vocab.
 
 Bước 4: Remove Low-Value Items & DEDUPLICATE
@@ -179,39 +179,39 @@ Mỗi chunk/từ vựng CHỈ ĐƯỢC TẠO 1 THẺ DUY NHẤT. Tuyệt đối 
 <output_template>
 
 # 🎯 Topic Formula
-| Item | Content |
-|--------|--------|
-| Topic | ... |
-| Core Ideas | 1. ... <br> 2. ... <br> 3. ... |
-| Keywords | keyword 1 \| keyword 2 \| keyword 3 |
+ Item  Content 
+----------------
+ Topic  ... 
+ Core Ideas  1. ... <br> 2. ... <br> 3. ... 
+ Keywords  keyword 1 \ keyword 2 \ keyword 3 
 
 ---
 
 # Topic Memory Card
-| Front | Back |
-|---------|---------|
-| Topic: [Name] | [Core Ideas Combined] |
+ Front  Back 
+------------------
+ Topic: [Name]  [Core Ideas Combined] 
 
 ---
 
 # 🔥 Core Chunks (Lọc kỹ, không trùng lặp)
-| Chunk | Meaning | Band | Score | Priority | Reusable Topics |
-|---------|---------|---------|---------|---------|---------|
+ Chunk  Meaning  Band  Score  Priority  Reusable Topics 
+------------------------------------------------------
 
 ---
 
 # 🧠 Optimized Anki Deck (1 Chunk = 1 Card)
-| Type | ID | Front | Back | IPA | Band | Example | Audio | Note | Tag |
-|---|---|---|---|---|---|---|---|---|---|
-| Cloze | ST-01 | I often {{c1::stay up late}} | thức khuya | /steɪ ʌp leɪt/ | 6.0-6.5 | I usually stay up late to finish my assignments. | | Thường đi với 'to V' | topic:spare_time |
-| Basic | ST-02 | sedentary lifestyle | lối sống thụ động | /ˈsed.ən.tər.i/ | 7.0-7.5 | A sedentary lifestyle can lead to health issues. | | Đi với động từ 'lead a' | topic:spare_time |
+ Type  ID  Front  Back  IPA  Band  Example  Audio  Note  Tag 
+------------------------------
+ Cloze  ST-01  I often {{c1::stay up late}}  thức khuya  /steɪ ʌp leɪt/  6.0-6.5  I usually stay up late to finish my assignments.   Thường đi với 'to V'  topic:spare_time 
+ Basic  ST-02  sedentary lifestyle  lối sống thụ động  /ˈsed.ən.tər.i/  7.0-7.5  A sedentary lifestyle can lead to health issues.   Đi với động từ 'lead a'  topic:spare_time 
 
 ---
 
 # 🏆 Core Deck Update
-| Chunk | Action | Reason |
-|---------|---------|---------|
-| ... | ADD | Highly reusable across topics |
+ Chunk  Action  Reason 
+---------------------------
+ ...  ADD  Highly reusable across topics 
 
 </output_template>
 
@@ -438,17 +438,46 @@ Question 2:
 What do you do when you feel tired?
 
 Answer 2:
-
+When I feel tired, I usually take a break and rest for a little while. Sometimes I read the news or do some light exercise like going for a walk to clear my mind. If I’m really exhausted, I don’t hesitate to hit the hay and get some sleep. It helps me recharge and feel more refreshed.
 
 Question 3:
-What do you do when you feel tired?
+Who do you usually talk to when you feel mentally tired?
 
 Answer 3:
-
+When I feel mentally tired, I usually talk to my close friends or my parents. They often help me relax and give me good advice. Sometimes, I also chat with my colleagues if I need to vent about work. It really helps me feel more refreshed and clear my mind. 
 
 Question 4:
-What do you do when you feel tired?
+Do you like to talk to others when you feel mentally tired?
 
 Answer 4:
+Yes, I usually prefer to talk to my family or close friends when I feel mentally tired. It helps me relieve some stress and clear my mind. I find that sharing my thoughts makes me feel better, as long as it’s not about anything too sensitive. Sometimes, just having a chat can lift my mood and give me a fresh perspective.
+```
 
+## Sleep
+```
+Topic: Sleep
+
+Question 1:  
+How many hours do you sleep every day?
+
+Answer 1:
+I usually sleep around seven to eight hours a night. I often go to bed around midnight and wake up at 8 in the morning. Sometimes, I also take a short nap during the day, which helps me recharge. Getting enough sleep is really important to keep me energized throughout the day.
+
+Question 2:
+Is it necessary to take a nap every day?
+
+Answer 2:
+I think taking a nap every day helps me stay alert in the afternoon and reduce tiredness. Many Vietnamese people have the habit of napping during the day, including myself. It breaks up the long hours and refreshes my mind. So, for me, it's quite necessary to take a short rest.
+
+Question 3:
+Do old people sleep a lot? Why?
+
+Answer 3:
+No, old people usually don't sleep as much as they used to. Many of them actually struggle with sleeping or wake up during the night. As they get older, their bodies don't need as much rest, and they tend to wake up easily because of age-related changes.
+
+Question 4:
+How to have a good sleep?
+
+Answer 4:
+To have a good sleep, I think it’s important to avoid using your phone before bed. It helps your mind relax and winding down. I also make sure to keep my bedroom clean and at a comfortable temperature. Going to bed and waking up at the same time every day helps your body get used to a routine, so you sleep better.
 ```
