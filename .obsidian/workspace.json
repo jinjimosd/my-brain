@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-Inbox/Ionah backup.md",
+                "file": "20-Work/Incidents/NK-2026-06-24.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ionah backup"
+              "title": "NK-2026-06-24"
             }
           }
         ],
@@ -245,15 +245,18 @@
   },
   "active": "e5b0b220ce0b00ea",
   "lastOpenFiles": [
-    "00-Inbox/NK harbor.md",
+    "20-Work/Incidents/NK-2026-05-12.md",
+    "20-Work/Incidents/NK-2026-06-24.md",
+    "20-Work/Incidents/_Incidents.md",
+    "20-Work/Meetings/NK-2026-06-17.md",
     "00-Inbox/Ionah backup.md",
+    "00-Inbox/NK harbor.md",
     "30-Learning/Active Recall.md",
     "20-Work/Projects/nk.md",
     "40-Personal/Truyện cv.md",
     "30-Learning/ThanhTung-ChatGPTPrompt.md",
     "30-Learning/Case Study FSRS - 304 Ngày Streak và Học Nhẹ Mà Lâu Quên Ít.md",
     "30-Learning/Anki Fundamentals.md",
-    "20-Work/Meetings/NK-2026-06-17.md",
     "20-Work/Meetings/NK-2026-05-26 1.md",
     "20-Work/Meetings/NK-2026-05-08.md",
     "20-Work/Projects/_Projects.md",
@@ -262,7 +265,6 @@
     "Attachments/Pasted image 20260617020304.png",
     "30-Learning/Anki Advanced V2 AI.md",
     "20-Work/Incidents/NK-2026-05-15.md",
-    "20-Work/Incidents/NK-2026-05-12.md",
     "30-Learning/IELTS_speaking_tunganh_p1.md",
     "30-Learning/IELTS-speaking_tunganh_p1.md",
     "30-Learning/Spaced Repetition.md",
@@ -271,8 +273,6 @@
     "00-Inbox/RDS - sql performent.md",
     "Home.md",
     "30-Learning/Forgetting Curve.md",
-    "40-Personal/Phỏng vấn hblab.md",
-    "30-Learning/11-Topic Happy things.md",
     "Attachments/Pasted image 20260603164931.png",
     "Untitled.canvas",
     "Untitled",
